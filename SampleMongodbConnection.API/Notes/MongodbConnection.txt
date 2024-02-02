@@ -1,0 +1,13 @@
+﻿1. Install required packages
+
+Install-Package MongoDB.Driver
+
+2. Add connection string to the appsettings.json file
+
+"ConnectionStrings": {
+    "Mongodb": "mongodb://localhost:27017"
+  }
+
+3. Make a MongoConnection Class for configuration
+
+4. use MongoClient and provided databaseName, CollectionName, and connection string to it's constructor.
